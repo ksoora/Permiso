@@ -21,7 +21,7 @@ gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
 
-#This gem makes it possible for Heroku uploading, 
+#This gem makes it possible for Heroku uploading,
 gem 'rails_12factor', group: :production
 
 
@@ -48,3 +48,5 @@ group :development, :test do
   gem 'rails_admin', '~> 0.6.6'
 
 end
+
+gem 'heroku'

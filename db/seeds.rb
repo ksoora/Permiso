@@ -5,21 +5,23 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
-LeRoy = Parent.new
+LeRoy = Parent.create!
 LeRoy.first_name = "LeRoy"
 LeRoy.last_name = "Gardner"
 LeRoy.email = "leroy.gardner@gmail.com"
 LeRoy.student_full_name = "Xavier Gardner"
 LeRoy.health_dietary = false
+LeRoy.save
 
-Karthik=Teacher.new
+Karthik=Teacher.create!
 Karthik.email= "karthiksoora1@gmail.com"
 Karthik.first_name ="Karthik"
 Karthik.last_name= "Soora"
 Karthik.school= "Eastwood"
 Karthik.subject="Chemistry"
+Karthik.save
 
-Aquarium=Trip.new
+Aquarium=Trip.create!
 Aquarium.trip_title="Aquarium"
 Aquarium.city="Houston"
 Aquarium.state="Texas"
@@ -30,3 +32,4 @@ Aquarium.time_returned="17:00"
 Aquarium.cost=2
 Aquarium.transportation=true
 Aquarium.food_provided=true
+Aquarium.save
