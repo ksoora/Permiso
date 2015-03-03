@@ -49,4 +49,11 @@ group :development, :test do
 
 end
 
-gem 'heroku'
+gem 'carrierwave'
+gem 'fog'
+gem 'dotenv-rails'
+gem 'mini_magick'
+gem 'active_model_serializers'
+gem 'rack-cors', :require => 'rack/cors'
+gem 'pry'
+gem 'pusher'
