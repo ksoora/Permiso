@@ -8,9 +8,7 @@ class Api::TeachersController < ApplicationController
    end
 
    def create
-    @teacher = Teacher.find(params[:id])
-
-    @teacher = Teacher.new params.require(:email) (:first_name) (:last_name) (:school) (:subject)
+    @teacher = Teacher.new params.require(:email), (:first_name) (:last_name) (:school) (:subject)
    end
 
 end
