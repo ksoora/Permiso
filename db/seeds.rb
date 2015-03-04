@@ -13,7 +13,7 @@ LeRoy.student_full_name = "Xavier Gardner"
 LeRoy.health_dietary = false
 LeRoy.save
 
-Karthik=Teacher.create!
+Karthik = Teacher.create!
 Karthik.email= "karthiksoora1@gmail.com"
 Karthik.first_name ="Karthik"
 Karthik.last_name= "Soora"
@@ -21,7 +21,7 @@ Karthik.school= "Eastwood"
 Karthik.subject="Chemistry"
 Karthik.save
 
-Aquarium=Trip.create!
+Aquarium = Trip.create!
 Aquarium.trip_title="Aquarium"
 Aquarium.city="Houston"
 Aquarium.state="Texas"
@@ -43,7 +43,7 @@ Christine.student_full_name = "Jack Christinako"
 Christine.health_dietary = false
 Christine.save
 
-Dorsh=Teacher.create!
+Dorsh = Teacher.create!
 Dorsh.email= "Dorshsoora1@gmail.com"
 Dorsh.first_name ="Dorsh"
 Dorsh.last_name= "Jamaica"
@@ -51,7 +51,7 @@ Dorsh.school= "Eastwood"
 Dorsh.subject="Math"
 Dorsh.save
 
-Aquarium=Trip.create!
+Zoo = Trip.create!
 Zoo.trip_title="Zoo"
 Zoo.city="Houston"
 Zoo.state="Texas"
@@ -73,7 +73,7 @@ Kyle.student_full_name = "Jack Jackson"
 Kyle.health_dietary = false
 Kyle.save
 
-Nicole=Teacher.create!
+Nicole = Teacher.create!
 Nicole.email= "Nicolesoora1@gmail.com"
 Nicole.first_name ="Nicole"
 Nicole.last_name= "Nathan"
@@ -81,7 +81,7 @@ Nicole.school= "Eastwood"
 Nicole.subject="Music"
 Nicole.save
 
-Dynamos=Trip.create!
+Dynamos = Trip.create!
 Dynamos.trip_title="Dynamos"
 Dynamos.city="Houston"
 Dynamos.state="Texas"
