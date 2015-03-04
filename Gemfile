@@ -45,7 +45,7 @@ group :development, :test do
   gem 'spring'
 
   #Rails Admin allows for the easy management of databases through an admin dashboard
-  gem 'rails_admin', '~> 0.6.6'
+
 
 end
 
@@ -57,4 +57,4 @@ gem 'active_model_serializers'
 gem 'rack-cors', :require => 'rack/cors'
 gem 'pry'
 gem 'pusher'
-gem 'heroku-api'
+gem 'rails_admin'
