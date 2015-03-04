@@ -1,5 +1,4 @@
 class Teacher < ActiveRecord::Base
-  def new
-  end
+  has_many :trips
 
 end

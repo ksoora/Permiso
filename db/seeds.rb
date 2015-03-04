@@ -32,4 +32,5 @@ Aquarium.time_returned="17:00"
 Aquarium.cost=2
 Aquarium.transportation=true
 Aquarium.food_provided=true
+Aquarium.teacher_id=1
 Aquarium.save

@@ -1,4 +1,3 @@
 class Parent < ActiveRecord::Base
-  def new
-  end
+  has_many :trips
 end

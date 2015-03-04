@@ -1,4 +1,4 @@
 class Trip < ActiveRecord::Base
-  def new
-  end
+ belongs_to :teacher
+ has_many :parents
 end
