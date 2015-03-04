@@ -7,8 +7,4 @@ class Api::TeachersController < ApplicationController
    render json: Teacher.find params[:id]
    end
 
-   def create
-    @teacher = Teacher.new params.require(:email), (:first_name) (:last_name) (:school) (:subject)
-   end
-
 end
