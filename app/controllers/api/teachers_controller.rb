@@ -3,14 +3,13 @@ class Api::TeachersController < ApplicationController
     render json: Teacher.all
   end
 
-   def show
-   render json: Teacher.find params[:id]
-   end
-
-   def create
-    @teacher = Teacher.find(params[:id])
-
-    @teacher = Teacher.new params.require(:email) (:first_name) (:last_name) (:school) (:subject)
-   end
+  def create
+  render json: Teacher.create!(
+    teacher_email: params[:teacher][:teacher_email],
+    teacher_first_name: params[:teacher][:first_name],
+    teacher_last_name: params[:teacher][:last_name],
+    teacher_school: params[:teacher][:school],
+    teacher_subject: params[:teacher][:subject])
+  end
 
 end
